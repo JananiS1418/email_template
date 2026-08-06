@@ -1,0 +1,30 @@
+.trust-section {
+    padding: 40px;
+    background-color: #FFFFFF;
+}
+
+.trust-item {
+    text-align: left;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+}
+
+.trust-icon {
+    width: 40px;
+    margin-right: 15px;
+}
+
+.trust-info {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    color: #333333;
+    line-height: 1.4;
+}
+
+.trust-info span {
+    font-weight: 400;
+    color: #666666;
+    font-size: 11px;
+}

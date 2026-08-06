@@ -1,0 +1,28 @@
+.final-cta {
+    background-color: #2E145E;
+    text-align: center;
+    padding: 50px 40px;
+    background-image: url('../images/mandala-dark-bg.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.cta-icon {
+    width: 40px;
+    margin-bottom: 15px;
+}
+
+.cta-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    color: #E6B94A;
+    margin: 0 0 15px 0;
+}
+
+.cta-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #FFFFFF;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}

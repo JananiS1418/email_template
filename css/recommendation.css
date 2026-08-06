@@ -1,0 +1,50 @@
+.recommendation-section {
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    margin: 0 40px;
+    overflow: hidden;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.06);
+}
+
+.rec-image-cell {
+    background-image: url('../images/recommendation-bg.png'); /* The left image in the mockup */
+    background-size: cover;
+    background-position: center;
+    background-color: #2E145E;
+}
+
+.rec-content {
+    padding: 40px 30px;
+    background-color: #FAFAFC;
+    background-image: url('../images/mandala-right.png');
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.rec-header {
+    margin-bottom: 15px;
+}
+
+.rec-icon {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.rec-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    color: #2E145E;
+    margin: 0;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.rec-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    color: #555555;
+    line-height: 1.7;
+    margin-bottom: 25px;
+}

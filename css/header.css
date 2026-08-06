@@ -1,0 +1,48 @@
+.header {
+    padding: 30px 32px;
+    background-color: #FFFFFF;
+}
+
+.header-logo {
+    max-width: 140px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.header-tagline {
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    color: #D8A347;
+}
+
+.trust-badge {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #D8A347;
+    text-align: center;
+    line-height: 40px;
+    background-color: #FFFFFF;
+}
+
+.trust-badge img {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.trust-text-main {
+    font-family: 'Poppins', sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    color: #2F2F2F;
+}
+
+.trust-text-sub {
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    font-weight: 500;
+    color: #D8A347;
+}

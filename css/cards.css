@@ -1,0 +1,139 @@
+.reveals-section {
+    padding: 40px 30px;
+    background-color: #FAFAFC;
+}
+
+.section-header-center {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.section-eyebrow {
+    font-family: 'Poppins', sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    color: #5B2E91;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.section-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    color: #2E1A47;
+    margin-top: 0;
+}
+
+.insight-card {
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    padding: 20px 15px;
+    text-align: center;
+    box-shadow: none; /* Removing drop shadow for cleaner look */
+    margin: 5px;
+}
+
+/* Card specific tinted backgrounds and borders */
+.card-purple {
+    background-color: #F8F5FF;
+    border: 1px solid #E6DDF5;
+}
+
+.card-pink {
+    background-color: #FFF5F7;
+    border: 1px solid #F5DDE3;
+}
+
+.card-blue {
+    background-color: #F5F8FF;
+    border: 1px solid #DDE6F5;
+}
+
+.card-green {
+    background-color: #F5FFF8;
+    border: 1px solid #DDF5E3;
+}
+
+.feature-card {
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    padding: 20px 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.03);
+    height: 140px;
+}
+
+.feature-icon {
+    width: 40px;
+    height: 40px;
+}
+
+.feature-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    color: #2E1A47;
+    margin-bottom: 5px;
+}
+
+.feature-desc {
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    color: #666666;
+}
+
+.recommended-section {
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.divider-wrapper {
+    margin-bottom: 25px;
+}
+
+.lotus-divider {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.rec-card {
+    border: 1px solid #EEEEEE;
+    border-radius: 12px;
+    padding: 15px;
+    text-align: left;
+    background-color: #FFFFFF;
+}
+
+.card-btn {
+    display: block;
+    padding: 8px 5px;
+    border-radius: 4px;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+.rec-img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.rec-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    color: #2E1A47;
+    margin-bottom: 5px;
+}
+
+.rec-desc {
+    font-family: 'Poppins', sans-serif;
+    font-size: 9px;
+    color: #666666;
+    margin-bottom: 10px;
+}

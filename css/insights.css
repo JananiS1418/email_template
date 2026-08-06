@@ -1,0 +1,145 @@
+.insights-section {
+    padding: 40px 0;
+    background-color: #FAF8F6;
+    text-align: center;
+}
+
+.section-title-container {
+    margin-bottom: 40px;
+}
+
+.section-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 26px;
+    font-weight: 600;
+    color: #32145D;
+    margin: 0;
+}
+
+.cards-grid {
+    margin: 0 auto;
+    width: 654px; /* (150*4) + (18*3) = 654 */
+    table-layout: fixed;
+}
+
+.insight-card {
+    width: 150px;
+    height: 360px;
+    border-radius: 18px;
+    padding: 25px 10px; /* 10px horizontal padding leaves exactly 130px for content */
+    box-shadow: 0 8px 24px rgba(0,0,0,0.04);
+    text-align: center;
+    box-sizing: border-box;
+    position: relative;
+    margin: 0;
+}
+
+/* Card specific tinted backgrounds and borders */
+.card-purple { background-color: #F8F5FF; border: 1px solid #E6DDF5; }
+.card-pink { background-color: #FFF5F7; border: 1px solid #F5DDE3; }
+.card-blue { background-color: #F5F8FF; border: 1px solid #DDE6F5; }
+.card-green { background-color: #F5FFF8; border: 1px solid #DDF5E3; }
+
+
+.card-img-container {
+    height: 100px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.card-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.card-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 13px;
+    font-weight: 700;
+    margin: 0 0 8px 0;
+    line-height: 1.3;
+    height: 34px; 
+    overflow: hidden;
+}
+
+/* Card Title Colors */
+.title-purple { color: #5B2E91; }
+.title-magenta { color: #9C145A; }
+.title-blue { color: #1E3A8A; }
+.title-green { color: #047857; }
+
+/* Card Dividers */
+.card-divider {
+    width: 30px;
+    height: 1px;
+    margin: 0 auto 12px auto;
+    position: relative;
+}
+
+.card-divider::after {
+    content: '♦';
+    font-size: 6px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.divider-purple { background-color: #E6DDF5; }
+.divider-purple::after { color: #E6DDF5; }
+
+.divider-pink { background-color: #F5DDE3; }
+.divider-pink::after { color: #F5DDE3; }
+
+.divider-blue { background-color: #DDE6F5; }
+.divider-blue::after { color: #DDE6F5; }
+
+.divider-green { background-color: #DDF5E3; }
+.divider-green::after { color: #DDF5E3; }
+
+.card-desc {
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    color: #555555;
+    line-height: 1.4;
+    margin: 0 0 20px 0;
+    height: 80px; 
+    overflow: hidden;
+    text-align: center;
+}
+
+.btn-container {
+    position: absolute;
+    bottom: 25px;
+    left: 0;
+    width: 100%;
+}
+
+.card-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    height: 38px;
+    margin: 0 auto;
+    border-radius: 8px;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    text-align: center;
+    box-sizing: border-box;
+    white-space: nowrap;
+}
+
+/* Button Colors */
+.btn-purple { background-color: #5B2E91; }
+.btn-magenta { background-color: #9C145A; }
+.btn-blue { background-color: #1E3A8A; }
+.btn-green { background-color: #047857; }
