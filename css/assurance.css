@@ -40,6 +40,6 @@
     .assurance-section tr::after { content: ""; display: table; clear: both; }
     .assurance-section table td { display: block !important; float: left !important; width: 50% !important; box-sizing: border-box !important; }
     .assurance-divider { display: none !important; }
-    .assurance-item { display: flex !important; flex-direction: column !important; align-items: center !important; text-align: center !important; margin-bottom: 30px !important; padding: 0 10px !important; }
+    .assurance-item { display: flex !important; flex-direction: column !important; align-items: center !important; text-align: center !important; margin-bottom: 15px !important; padding: 0 10px !important; }
     .assurance-icon { margin-right: 0 !important; margin-bottom: 8px !important; }
 }

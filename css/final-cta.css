@@ -1,14 +1,17 @@
 .final-cta {
     background-color: #FFFFFF;
     text-align: center;
-    padding: 30px 40px;
+    padding: 15px 40px 30px 40px;
 }
 
 .special-offer-banner {
-    background-color: #2E145E;
+    background-color: #2E145E; /* fallback */
+    background: radial-gradient(circle at top right, rgba(244, 194, 71, 0.15) 0%, transparent 60%), linear-gradient(135deg, #371871 0%, #16082c 100%);
     border-radius: 12px;
     padding: 20px;
     margin-bottom: 25px;
+    box-shadow: 0 10px 25px rgba(22, 8, 44, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.05);
 }
 
 .offer-timer-icon {
@@ -102,4 +105,5 @@
     .offer-timer-icon { margin-bottom: 15px !important; margin-top: 5px !important; }
     .offer-sub, .offer-main, .offer-tag { text-align: center !important; }
     .offer-validity-box { margin: 20px auto 10px auto !important; }
+    .btn-purple { padding: 16px 20px !important; display: block !important; box-sizing: border-box !important; width: 100% !important; }
 }

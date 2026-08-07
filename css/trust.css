@@ -1,5 +1,5 @@
 .trust-section {
-    padding: 30px 40px;
+    padding: 15px 40px;
     background-color: #FFFFFF;
     text-align: center;
 }
@@ -55,11 +55,12 @@
 }
 
 @media only screen and (max-width: 650px) {
-    .trust-section { padding: 25px 20px !important; }
+    .trust-section { padding: 15px 20px !important; }
+    .trust-section-title { margin-bottom: 15px !important; }
     .trust-section table, .trust-section tbody, .trust-section tr { display: block !important; width: 100% !important; }
     .trust-section tr::after { content: ""; display: table; clear: both; }
     .trust-section table td { display: block !important; float: left !important; width: 50% !important; box-sizing: border-box !important; }
     .trust-divider { display: none !important; }
-    .trust-item { display: flex !important; flex-direction: column !important; align-items: center !important; text-align: center !important; margin-bottom: 30px !important; padding: 0 10px !important; }
+    .trust-item { display: flex !important; flex-direction: column !important; align-items: center !important; text-align: center !important; margin-bottom: 15px !important; padding: 0 10px !important; }
     .trust-icon-container { margin-right: 0 !important; margin-bottom: 8px !important; }
 }

@@ -1,5 +1,5 @@
 .footer {
-    padding: 30px 40px;
+    padding: 15px 40px 30px 40px;
     background-color: #F8F5FD;
     text-align: center;
 }
@@ -38,7 +38,7 @@
 }
 
 @media only screen and (max-width: 650px) {
-    .footer { padding: 25px 20px !important; }
+    .footer { padding: 15px 20px !important; }
     .stay-connected { display: block !important; text-align: center !important; }
     .stay-text { display: block !important; margin-right: 0 !important; margin-bottom: 15px !important; }
     .social-icon { display: inline-block !important; margin: 0 5px !important; }

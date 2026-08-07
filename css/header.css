@@ -55,12 +55,12 @@
 }
 
 @media only screen and (max-width: 650px) {
-    .header > table, .header > table > tbody, .header > table > tbody > tr, .header > table > tr { display: block !important; width: 100% !important; }
-    .header-logo-cell, .header-badge-cell { display: block !important; width: 100% !important; text-align: center !important; box-sizing: border-box !important; }
-    .header-logo-cell { margin-bottom: 20px !important; }
-    .header-logo { margin: 0 auto 10px auto !important; }
-    .badge-inner-table { width: 100% !important; margin: 0 auto !important; float: none !important; }
-    .badge-icon-td, .badge-text-td { display: block !important; width: 100% !important; text-align: center !important; padding-left: 0 !important; }
-    .badge-text-td { margin-top: 10px !important; }
-    .trust-badge { margin: 0 auto !important; }
+    .header { padding: 20px 15px !important; }
+    .header-logo { max-width: 110px !important; margin-bottom: 2px !important; }
+    .header-tagline { font-size: 8px !important; }
+    .trust-badge { width: 32px !important; height: 32px !important; line-height: 32px !important; }
+    .trust-badge img { width: 18px !important; height: 18px !important; }
+    .badge-text-td { padding-left: 8px !important; }
+    .trust-text-main { font-size: 10px !important; line-height: 1.2 !important; }
+    .trust-text-sub { font-size: 9px !important; }
 }

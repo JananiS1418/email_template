@@ -1,5 +1,5 @@
 .insights-section {
-    padding: 30px 20px;
+    padding: 15px 20px;
     background-color: #FAF8F6;
     text-align: center;
 }
@@ -9,7 +9,7 @@
 }
 
 .section-title-container {
-    margin-bottom: 30px;
+    margin-bottom: 15px;
 }
 
 .section-title {
@@ -112,7 +112,9 @@
 
 @media only screen and (max-width: 650px) {
     .insights-section { padding: 25px 20px !important; }
+    .section-title-container { margin-bottom: 15px !important; }
     .cards-grid td { display: block !important; width: 100% !important; margin-bottom: 20px !important; }
     .cards-grid tr td:last-child { margin-bottom: 0 !important; }
-    .insight-card { height: auto !important; }
+    .insight-card { height: auto !important; padding: 15px !important; }
+    .card-desc { height: auto !important; }
 }
