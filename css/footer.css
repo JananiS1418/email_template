@@ -22,6 +22,12 @@
     width: 24px;
     height: 24px;
     margin: 0 5px;
+    transition: all 0.5s ease;
+}
+
+.social-icon:hover {
+    transform: rotate(360deg) scale(1.1);
+    filter: brightness(1.2);
 }
 
 .footer-copy {
@@ -35,6 +41,12 @@
 .footer-copy a {
     color: #666666;
     text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.footer-copy a:hover {
+    color: #2E145E;
+    text-decoration: underline;
 }
 
 @media only screen and (max-width: 650px) {

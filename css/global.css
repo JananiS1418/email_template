@@ -32,6 +32,13 @@ body {
     font-weight: 600;
     font-size: 13px;
     border: none;
+    transition: all 0.3s ease;
+}
+
+.btn-gold:hover {
+    background-color: #f1b31c;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(244, 194, 71, 0.4);
 }
 
 .btn-gold-solid {
@@ -57,6 +64,13 @@ body {
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
     font-size: 12px;
+    transition: all 0.3s ease;
+}
+
+.btn-purple:hover {
+    background-color: #461E9A;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(46, 20, 94, 0.4);
 }
 
 .btn-arrow {

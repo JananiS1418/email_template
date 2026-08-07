@@ -38,6 +38,13 @@
     border-radius: 12px;
     box-shadow: 0 4px 15px rgba(0,0,0,0.05);
     border: 1px solid #F0F0F0;
+    transition: all 0.3s ease;
+}
+
+.insight-card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 12px 30px rgba(46, 20, 94, 0.12);
+    border-color: #F4C247;
 }
 
 .card-img-container {
@@ -104,6 +111,12 @@
     font-size: 11px;
     font-weight: 500;
     text-align: center;
+    transition: all 0.3s ease;
+}
+
+.card-btn:hover {
+    transform: translateX(4px);
+    filter: brightness(1.2);
 }
 .btn-bg-purple { background-color: #2E145E; }
 .btn-bg-pink { background-color: #9C145A; }
