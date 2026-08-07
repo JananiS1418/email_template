@@ -1,5 +1,5 @@
 .header {
-    padding: 30px 32px;
+    padding: 30px 40px;
     background-color: #FFFFFF;
 }
 
@@ -13,14 +13,14 @@
     font-family: 'Poppins', sans-serif;
     font-size: 10px;
     font-weight: 600;
-    color: #D8A347;
+    color: #F4C247;
 }
 
 .trust-badge {
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    border: 1px solid #D8A347;
+    border: 1px solid #F4C247;
     text-align: center;
     line-height: 40px;
     background-color: #FFFFFF;
@@ -44,5 +44,23 @@
     font-family: 'Poppins', sans-serif;
     font-size: 10px;
     font-weight: 500;
-    color: #D8A347;
+    color: #F4C247;
+}
+
+.header-divider {
+    height: 1px;
+    background-color: #F4C247;
+    width: 100%;
+    opacity: 0.3;
+}
+
+@media only screen and (max-width: 650px) {
+    .header > table, .header > table > tbody, .header > table > tbody > tr, .header > table > tr { display: block !important; width: 100% !important; }
+    .header-logo-cell, .header-badge-cell { display: block !important; width: 100% !important; text-align: center !important; box-sizing: border-box !important; }
+    .header-logo-cell { margin-bottom: 20px !important; }
+    .header-logo { margin: 0 auto 10px auto !important; }
+    .badge-inner-table { width: 100% !important; margin: 0 auto !important; float: none !important; }
+    .badge-icon-td, .badge-text-td { display: block !important; width: 100% !important; text-align: center !important; padding-left: 0 !important; }
+    .badge-text-td { margin-top: 10px !important; }
+    .trust-badge { margin: 0 auto !important; }
 }

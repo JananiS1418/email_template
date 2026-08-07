@@ -14,9 +14,9 @@
     <link rel="stylesheet" href="css/hero.css">
     <link rel="stylesheet" href="css/greeting.css">
     <link rel="stylesheet" href="css/insights.css">
-    <link rel="stylesheet" href="css/recommendation.css">
     <link rel="stylesheet" href="css/trust.css">
     <link rel="stylesheet" href="css/final-cta.css">
+    <link rel="stylesheet" href="css/assurance.css">
     <link rel="stylesheet" href="css/footer.css">
 </head>
 <body>
@@ -27,20 +27,20 @@
             <div class="header">
                 <table width="100%" cellpadding="0" cellspacing="0" border="0">
                     <tr>
-                        <td align="left" valign="middle">
+                        <td align="left" valign="middle" class="header-logo-cell">
                             <img src="https://cdn.astroved.com/images/images-av/AstroVed-Logo.svg" alt="AstroVed" class="header-logo">
                             <div class="header-tagline">Your Spiritual Partner Since 2001</div>
                         </td>
-                        <td align="right" valign="middle">
-                            <table cellpadding="0" cellspacing="0" border="0" align="right">
+                        <td align="right" valign="middle" class="header-badge-cell">
+                            <table cellpadding="0" cellspacing="0" border="0" align="right" class="badge-inner-table">
                                 <tr>
-                                    <td valign="middle">
+                                    <td valign="middle" class="badge-icon-td">
                                         <div class="trust-badge">
                                             <!-- Fallback if external image is blocked -->
                                             <span style="font-size: 20px; color: #D8A347;">🪔</span>
                                         </div>
                                     </td>
-                                    <td valign="middle" align="left" style="padding-left: 14px;">
+                                    <td valign="middle" align="left" style="padding-left: 14px;" class="badge-text-td">
                                         <div class="trust-text-main">Trusted by Millions</div>
                                         <div class="trust-text-sub">20+ Years of Legacy</div>
                                     </td>
@@ -49,17 +49,21 @@
                         </td>
                     </tr>
                 </table>
+                <div class="header-divider"></div>
             </div>
 
             <!-- 2. Hero Section -->
             <div class="hero">
-                <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                <!-- Mobile Only Banner Image -->
+                <img src="images/mobile-banner.png" alt="Spiritual Journey" class="mobile-hero-img" style="display: none; width: 100%; height: auto;">
+                
+                <table width="100%" cellpadding="0" cellspacing="0" border="0" class="hero-table">
                     <tr>
                         <td class="hero-content" valign="middle">
                             <h1 class="hero-title">Continue Your<br><span class="text-gold">Spiritual Journey</span></h1>
                             <div class="hero-divider"></div>
-                            <p class="hero-text">It's been a while since we connected.<br>Your spiritual journey is unique and ongoing.<br>Let's take the next step together.</p>
-                            <a href="#" class="btn-gold">Continue My Journey <span class="btn-arrow">&gt;</span></a>
+                            <p class="hero-text">Your personalized insights are ready.<br>Reconnect with guidance, clarity and<br>blessings made just for you.</p>
+                            <a href="https://www.astroved.com/" class="btn-gold" target="_blank">Continue My Journey <span class="btn-arrow">&gt;</span></a>
                         </td>
                     </tr>
                 </table>
@@ -82,8 +86,8 @@
                             <div class="vertical-divider"></div>
                         </td>
                         <td width="70%" valign="middle" class="greeting-content">
-                            <h2 class="greeting-title">Dear Ravi,</h2>
-                            <p class="greeting-text">Every spiritual journey has its own rhythm.<br>Your personalized insights are waiting to guide your next step.<br>Discover what the universe has prepared for you.</p>
+                            <h2 class="greeting-title">Dear Janani,</h2>
+                            <p class="greeting-text">It's been a while since we connected.<br>Your personalized reports are waiting to guide your next chapter.<br>Discover what the universe has prepared especially for you.</p>
                         </td>
                     </tr>
                 </table>
@@ -91,176 +95,202 @@
 
             <!-- 4. Insights Section -->
             <div class="insights-section">
-                
                 <!-- 4. Section Title -->
                 <div class="section-title-container">
                     <table width="100%" cellpadding="0" cellspacing="0" border="0">
                         <tr>
                             <td align="center">
                                 <h2 class="section-title">
-                                    <span style="color: #D8A347; font-size: 16px; vertical-align: middle;">— ✧ &nbsp;</span>Your Personalized Spiritual Insights<span style="color: #D8A347; font-size: 16px; vertical-align: middle;">&nbsp; ✧ —</span>
+                                    <span style="color: #2E145E; font-size: 14px; vertical-align: middle;">✧ &nbsp;</span>YOUR PERSONALIZED INSIGHTS ARE WAITING<span style="color: #2E145E; font-size: 14px; vertical-align: middle;">&nbsp; ✧</span>
                                 </h2>
+                            </td>
+                        </tr>
+                        </table>
+                    </div>
+
+                    <table width="100%" cellpadding="0" cellspacing="0" border="0" class="cards-grid">
+                        <tr>
+                            <!-- Card 1 -->
+                            <td width="25%" valign="top">
+                                <div class="insight-card">
+                                    <div class="card-img-container">
+                                        <img src="images/kundali.png" alt="Kundali" class="card-img">
+                                    </div>
+                                    <h3 class="card-title title-purple">AI Kundali<br>Report</h3>
+                                    <div class="card-divider divider-purple"></div>
+                                    <p class="card-desc">Get deep insights about your life, career, relationships and remedies.</p>
+                                    <a href="https://www.astroved.com/kundali-report/" class="card-btn btn-bg-purple" target="_blank">View My Kundali &gt;</a>
+                                </div>
+                            </td>
+                            <!-- Card 2 -->
+                            <td width="25%" valign="top">
+                                <div class="insight-card">
+                                    <div class="card-img-container">
+                                        <img src="images/numerology.png" alt="Numerology" class="card-img">
+                                    </div>
+                                    <h3 class="card-title title-pink">AI Numerology<br>Report</h3>
+                                    <div class="card-divider divider-pink"></div>
+                                    <p class="card-desc">Understand the power of numbers in your life, personality and life path.</p>
+                                    <a href="https://www.astroved.com/numerology-report/" class="card-btn btn-bg-pink" target="_blank">Discover Numbers &gt;</a>
+                                </div>
+                            </td>
+                            <!-- Card 3 -->
+                            <td width="25%" valign="top">
+                                <div class="insight-card">
+                                    <div class="card-img-container">
+                                        <img src="images/horoscope.png" alt="Horoscope" class="card-img">
+                                    </div>
+                                    <h3 class="card-title title-blue">Today's<br>Horoscope</h3>
+                                    <div class="card-divider divider-blue"></div>
+                                    <p class="card-desc">Read your personalized daily horoscope and stay aligned with cosmic energies.</p>
+                                    <a href="https://www.astroved.com/horoscopes" class="card-btn btn-bg-blue" target="_blank">View Horoscope &gt;</a>
+                                </div>
+                            </td>
+                            <!-- Card 4 -->
+                            <td width="25%" valign="top">
+                                <div class="insight-card">
+                                    <div class="card-img-container">
+                                        <img src="images/remedies.png" alt="Remedy" class="card-img">
+                                    </div>
+                                    <h3 class="card-title title-green">Recommended<br>Remedy</h3>
+                                    <div class="card-divider divider-green"></div>
+                                    <p class="card-desc">Personalized puja, mantra or remedy to remove obstacles and invite blessings.</p>
+                                    <a href="https://www.astroved.com/instant-pooja" class="card-btn btn-bg-green" target="_blank">Explore Remedy &gt;</a>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+            </div>
+
+
+
+            <!-- 6. Trust Section -->
+            <div class="trust-section">
+                <h2 class="trust-section-title">
+                    <span style="color: #2E145E; font-size: 14px; vertical-align: middle;">✧ &nbsp;</span>WHY RETURN TO ASTROVED?<span style="color: #2E145E; font-size: 14px; vertical-align: middle;">&nbsp; ✧</span>
+                </h2>
+                <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                    <tr>
+                        <td width="24%" valign="middle" align="center">
+                            <div class="trust-item">
+                                <div class="trust-icon-container">
+                                    <img src="https://img.icons8.com/ios/50/2E145E/user.png" alt="User" class="trust-icon">
+                                </div>
+                                <div class="trust-info">Personalized<br>Just For You</div>
+                            </div>
+                        </td>
+                        <td width="2%" valign="middle" align="center"><div class="trust-divider"></div></td>
+                        <td width="24%" valign="middle" align="center">
+                            <div class="trust-item">
+                                <div class="trust-icon-container">
+                                    <img src="https://img.icons8.com/ios/50/2E145E/security-checked.png" alt="Shield" class="trust-icon">
+                                </div>
+                                <div class="trust-info">Trusted by<br>Millions</div>
+                            </div>
+                        </td>
+                        <td width="2%" valign="middle" align="center"><div class="trust-divider"></div></td>
+                        <td width="24%" valign="middle" align="center">
+                            <div class="trust-item">
+                                <div class="trust-icon-container">
+                                    <img src="https://img.icons8.com/ios/50/2E145E/guarantee.png" alt="Badge" class="trust-icon">
+                                </div>
+                                <div class="trust-info">20+ Years of<br>Expert Guidance</div>
+                            </div>
+                        </td>
+                        <td width="2%" valign="middle" align="center"><div class="trust-divider"></div></td>
+                        <td width="24%" valign="middle" align="center">
+                            <div class="trust-item">
+                                <div class="trust-icon-container">
+                                    <img src="https://img.icons8.com/ios/50/2E145E/lock.png" alt="Lock" class="trust-icon">
+                                </div>
+                                <div class="trust-info">100% Secure<br>& Confidential</div>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+
+
+            <!-- 7. Final CTA / Special Offer -->
+            <div class="final-cta">
+                <div class="special-offer-banner">
+                    <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                        <tr>
+                            <td width="20%" align="center" valign="middle">
+                                <img src="https://img.icons8.com/ios-filled/100/F4C247/stopwatch.png" alt="Stopwatch" class="offer-timer-icon">
+                            </td>
+                            <td width="50%" align="left" valign="middle">
+                                <div class="offer-tag">SPECIAL OFFER - LIMITED TIME ONLY!</div>
+                                <div class="offer-sub">Come back today and get</div>
+                                <div class="offer-main">FLAT 25% OFF</div>
+                            </td>
+                            <td width="30%" align="center" valign="middle">
+                                <div class="offer-validity-box">
+                                    <div class="validity-label">Offer Valid Till</div>
+                                    <div class="validity-date">2 JUNE 2026</div>
+                                </div>
                             </td>
                         </tr>
                     </table>
                 </div>
 
-                <table width="654" cellpadding="0" cellspacing="0" border="0" class="cards-grid">
-                    <tr>
-                        <!-- Card 1 -->
-                        <td width="150" valign="top">
-                            <div class="insight-card card-purple">
-                                <div class="card-img-container">
-                                    <img src="images/kundali.png" alt="Kundali" class="card-img">
-                                </div>
-                                <h3 class="card-title title-purple">AI Kundali<br>Report</h3>
-                                <div class="card-divider divider-purple"></div>
-                                <p class="card-desc">Get deep insights about your life, career, relationships and remedies personalized just for you.</p>
-                                <div class="btn-container">
-                                    <a href="#" class="card-btn btn-purple">View My Kundali ></a>
-                                </div>
-                            </div>
-                        </td>
-                        <td width="18"></td> <!-- GAP -->
-                        <!-- Card 2 -->
-                        <td width="150" valign="top">
-                            <div class="insight-card card-pink">
-                                <div class="card-img-container">
-                                    <img src="images/numerology.png" alt="Numerology" class="card-img">
-                                </div>
-                                <h3 class="card-title title-magenta">AI Numerology<br>Report</h3>
-                                <div class="card-divider divider-pink"></div>
-                                <p class="card-desc">Discover the power of numbers in your life. Understand your personality, strengths and life path.</p>
-                                <div class="btn-container">
-                                    <a href="#" class="card-btn btn-magenta">Discover Numbers ></a>
-                                </div>
-                            </div>
-                        </td>
-                        <td width="18"></td> <!-- GAP -->
-                        <!-- Card 3 -->
-                        <td width="150" valign="top">
-                            <div class="insight-card card-blue">
-                                <div class="card-img-container">
-                                    <img src="images/horoscope.png" alt="Horoscope" class="card-img">
-                                </div>
-                                <h3 class="card-title title-blue">Today's<br>Horoscope</h3>
-                                <div class="card-divider divider-blue"></div>
-                                <p class="card-desc">Read your personalized daily horoscope and stay aligned with the cosmic energies.</p>
-                                <div class="btn-container">
-                                    <a href="#" class="card-btn btn-blue">View Horoscope ></a>
-                                </div>
-                            </div>
-                        </td>
-                        <td width="18"></td> <!-- GAP -->
-                        <!-- Card 4 -->
-                        <td width="150" valign="top">
-                            <div class="insight-card card-green">
-                                <div class="card-img-container">
-                                    <img src="images/remedies.png" alt="Remedy" class="card-img">
-                                </div>
-                                <h3 class="card-title title-green">Recommended<br>Remedy</h3>
-                                <div class="card-divider divider-green"></div>
-                                <p class="card-desc">Personalized pooja, mantra or remedy to help you overcome obstacles and invite blessings.</p>
-                                <div class="btn-container">
-                                    <a href="#" class="card-btn btn-green">Explore Remedy ></a>
-                                </div>
-                            </div>
-                        </td>
-                    </tr>
-                </table>
-            </div>
+                <a href="https://www.astroved.com/" class="btn-purple" target="_blank">Continue My Spiritual Journey <span class="btn-arrow">&rarr;</span></a>
 
-            <!-- 5. Featured Recommendation -->
-            <div class="recommendation-section">
-                <table width="100%" cellpadding="0" cellspacing="0" border="0">
-                    <tr>
-                        <td width="40%" class="rec-image-cell">
-                            <!-- Handled in CSS / background -->
-                        </td>
-                        <td width="60%" class="rec-content" valign="middle">
-                            <div class="rec-header">
-                                <h2 class="rec-title"><img src="https://placehold.co/24x24/FFF/D4AF37?text=*" alt="Star" class="rec-icon"> Recommended Just For You</h2>
-                            </div>
-                            <p class="rec-text">Based on your previous spiritual journey, our AI recommends a personalized consultation to help you move forward with clarity and confidence.</p>
-                            <a href="#" class="btn-gold-solid">Explore Recommendation <span class="btn-arrow">&gt;</span></a>
-                        </td>
-                    </tr>
-                </table>
-            </div>
+                <div class="safe-badge">
+                    <img src="https://img.icons8.com/ios/50/665287/security-checked.png" alt="Safe" class="safe-icon">
+                    <span class="safe-text">Safe &bull; Secure &bull; Trusted</span>
+                </div>
 
-            <!-- 6. Trust Section -->
-            <div class="trust-section">
-                <table width="100%" cellpadding="0" cellspacing="0" border="0">
-                    <tr>
-                        <td width="25%" valign="middle" align="center">
-                            <div class="trust-item">
-                                <img src="images/icon-shield.png" alt="Trusted" class="trust-icon" onerror="this.src='https://placehold.co/40x40/FFF/C59B3C'">
-                                <div class="trust-info">Trusted by Millions<br><span>20+ Years of Legacy</span></div>
-                            </div>
-                        </td>
-                        <td width="25%" valign="middle" align="center">
-                            <div class="trust-item">
-                                <img src="images/icon-expert.png" alt="Expert" class="trust-icon" onerror="this.src='https://placehold.co/40x40/FFF/C59B3C'">
-                                <div class="trust-info">Expert Astrologers<br><span>& Spiritual Guides</span></div>
-                            </div>
-                        </td>
-                        <td width="25%" valign="middle" align="center">
-                            <div class="trust-item">
-                                <img src="images/icon-lotus-outline.png" alt="Personalized" class="trust-icon" onerror="this.src='https://placehold.co/40x40/FFF/C59B3C'">
-                                <div class="trust-info">Personalized<br><span>Guidance</span></div>
-                            </div>
-                        </td>
-                        <td width="25%" valign="middle" align="center">
-                            <div class="trust-item">
-                                <img src="images/icon-lock.png" alt="Secure" class="trust-icon" onerror="this.src='https://placehold.co/40x40/FFF/C59B3C'">
-                                <div class="trust-info">100% Secure &<br><span>Confidential</span></div>
-                            </div>
-                        </td>
-                    </tr>
-                </table>
-            </div>
-
-            <!-- 7. Final CTA -->
-            <div class="final-cta">
-                <img src="images/icon-lotus-gold.png" alt="Lotus" class="cta-icon" onerror="this.src='https://placehold.co/40x40/2E145E/D4AF37'">
-                <h2 class="cta-title">Your Journey Doesn't End Here</h2>
-                <p class="cta-text">Reconnect with personalized spiritual guidance<br>crafted just for you.</p>
-                <a href="#" class="btn-gold-solid">Continue My Journey <span class="btn-arrow">&gt;</span></a>
+                <div class="assurance-section">
+                    <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                        <tr>
+                            <td width="24%" valign="middle" align="center">
+                                <div class="assurance-item">
+                                    <img src="https://img.icons8.com/ios/50/2E145E/mail.png" alt="Mail" class="assurance-icon">
+                                    <div class="assurance-info">Delivered In<br>72 Hours</div>
+                                </div>
+                            </td>
+                            <td width="1%" valign="middle" align="center"><div class="assurance-divider"></div></td>
+                            <td width="24%" valign="middle" align="center">
+                                <div class="assurance-item">
+                                    <img src="https://img.icons8.com/ios/50/2E145E/pdf.png" alt="PDF" class="assurance-icon">
+                                    <div class="assurance-info">PDF Report<br>on Email</div>
+                                </div>
+                            </td>
+                            <td width="1%" valign="middle" align="center"><div class="assurance-divider"></div></td>
+                            <td width="24%" valign="middle" align="center">
+                                <div class="assurance-item">
+                                    <img src="https://img.icons8.com/ios/50/2E145E/headset.png" alt="Headset" class="assurance-icon">
+                                    <div class="assurance-info">Expert<br>Support</div>
+                                </div>
+                            </td>
+                            <td width="1%" valign="middle" align="center"><div class="assurance-divider"></div></td>
+                            <td width="24%" valign="middle" align="center">
+                                <div class="assurance-item">
+                                    <img src="https://img.icons8.com/ios/50/2E145E/guarantee.png" alt="Guarantee" class="assurance-icon">
+                                    <div class="assurance-info">Satisfaction<br>Guaranteed</div>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
             </div>
 
             <!-- 8. Footer -->
             <div class="footer">
-                <table width="100%" cellpadding="0" cellspacing="0" border="0" class="footer-contact">
-                    <tr>
-                        <td width="33%" align="center" valign="top">
-                            <img src="images/icon-email.png" alt="Email" class="footer-icon" onerror="this.src='https://placehold.co/24x24'">
-                            <div class="footer-contact-title">Email Us</div>
-                            <a href="mailto:support@astroved.com" class="footer-contact-link">support@astroved.com</a>
-                        </td>
-                        <td width="33%" align="center" valign="top" class="footer-border">
-                            <img src="images/icon-phone.png" alt="Phone" class="footer-icon" onerror="this.src='https://placehold.co/24x24'">
-                            <div class="footer-contact-title">Call Us</div>
-                            <a href="tel:+914446776700" class="footer-contact-link">+91 44 4677 6700</a>
-                        </td>
-                        <td width="33%" align="center" valign="top">
-                            <img src="images/icon-web.png" alt="Web" class="footer-icon" onerror="this.src='https://placehold.co/24x24'">
-                            <div class="footer-contact-title">Visit Us</div>
-                            <a href="https://www.astroved.com" class="footer-contact-link">www.astroved.com</a>
-                        </td>
-                    </tr>
-                </table>
-                
-                <div class="social-links">
-                    <a href="#"><img src="images/social-fb.png" alt="Facebook" onerror="this.src='https://placehold.co/32x32/2E145E/FFF'"></a>
-                    <a href="#"><img src="images/social-ig.png" alt="Instagram" onerror="this.src='https://placehold.co/32x32/2E145E/FFF'"></a>
-                    <a href="#"><img src="images/social-yt.png" alt="YouTube" onerror="this.src='https://placehold.co/32x32/2E145E/FFF'"></a>
-                    <a href="#"><img src="images/social-wa.png" alt="WhatsApp" onerror="this.src='https://placehold.co/32x32/2E145E/FFF'"></a>
-                    <a href="#"><img src="images/social-tw.png" alt="Twitter" onerror="this.src='https://placehold.co/32x32/2E145E/FFF'"></a>
+                <div class="stay-connected">
+                    <span class="stay-text">Stay connected with us</span>
+                    <a href="#"><img src="https://img.icons8.com/ios-filled/50/2E145E/facebook-circled--v1.png" alt="Facebook" class="social-icon"></a>
+                    <a href="#"><img src="https://img.icons8.com/ios-filled/50/2E145E/instagram-new.png" alt="Instagram" class="social-icon"></a>
+                    <a href="#"><img src="https://img.icons8.com/ios-filled/50/2E145E/youtube-play.png" alt="YouTube" class="social-icon"></a>
+                    <a href="#"><img src="https://img.icons8.com/ios-filled/50/2E145E/twitter.png" alt="Twitter" class="social-icon"></a>
                 </div>
 
                 <p class="footer-copy">
-                    You are receiving this email because you are a valued customer of AstroVed.<br>
-                    If you no longer wish to receive emails, you can <a href="#">unsubscribe here</a>.
+                    You are receiving this email because you opted in at AstroVed.<br>
+                    <a href="#">Unsubscribe</a> &nbsp;|&nbsp; <a href="#">Privacy Policy</a> &nbsp;|&nbsp; <a href="#">Terms &amp; Conditions</a><br>
+                    &copy; 2026 AstroVed.com. All Rights Reserved.
                 </p>
             </div>
 

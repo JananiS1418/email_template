@@ -1,28 +1,105 @@
 .final-cta {
-    background-color: #2E145E;
+    background-color: #FFFFFF;
     text-align: center;
-    padding: 50px 40px;
-    background-image: url('../images/mandala-dark-bg.png');
-    background-size: cover;
-    background-position: center;
+    padding: 30px 40px;
 }
 
-.cta-icon {
-    width: 40px;
+.special-offer-banner {
+    background-color: #2E145E;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 25px;
+}
+
+.offer-timer-icon {
+    width: 60px;
+    height: 60px;
+}
+
+.offer-tag {
+    color: #F4C247;
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.offer-sub {
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    margin-bottom: 2px;
+}
+
+.offer-main {
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.offer-validity-box {
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 8px;
+    padding: 10px 15px;
+    display: inline-block;
+}
+
+.validity-label {
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    margin-bottom: 4px;
+}
+
+.validity-date {
+    color: #F4C247;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.btn-purple {
+    display: inline-block;
+    background-color: #461E9A;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 16px 80px;
+    border-radius: 8px;
     margin-bottom: 15px;
 }
 
-.cta-title {
-    font-family: 'Playfair Display', serif;
-    font-size: 28px;
-    color: #E6B94A;
-    margin: 0 0 15px 0;
+.btn-purple .btn-arrow {
+    margin-left: 5px;
 }
 
-.cta-text {
+.safe-badge {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.safe-icon {
+    width: 14px;
+    height: 14px;
+    margin-right: 6px;
+}
+
+.safe-text {
     font-family: 'Poppins', sans-serif;
-    font-size: 14px;
-    color: #FFFFFF;
-    line-height: 1.6;
-    margin-bottom: 30px;
+    font-size: 11px;
+    color: #665287;
+    font-weight: 500;
+}
+
+@media only screen and (max-width: 650px) {
+    .final-cta { padding: 25px 20px !important; }
+    .special-offer-banner table td { display: block !important; width: 100% !important; text-align: center !important; }
+    .offer-timer-icon { margin-bottom: 15px !important; margin-top: 5px !important; }
+    .offer-sub, .offer-main, .offer-tag { text-align: center !important; }
+    .offer-validity-box { margin: 20px auto 10px auto !important; }
 }

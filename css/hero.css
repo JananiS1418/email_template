@@ -2,32 +2,32 @@
     background-image: url('../images/banner.png');
     background-size: cover;
     background-position: center right;
-    padding: 40px 32px;
-    background-color: #1A0B36; /* fallback */
-    min-height: 200px;
+    padding: 50px 40px;
+    background-color: #2E145E; /* fallback */
+    min-height: 240px;
 }
 
 .hero-content {
-    width: 60%;
+    width: 55%;
 }
 
 .hero-title {
     font-family: 'Playfair Display', serif;
-    font-size: 36px;
-    line-height: 1.2;
+    font-size: 32px;
+    line-height: 1.25;
     color: #FFFFFF;
     margin: 0 0 10px 0;
     font-weight: 600;
 }
 
 .text-gold {
-    color: #F1BC46;
+    color: #F4C247;
 }
 
 .hero-divider {
-    width: 140px;
+    width: 80px;
     height: 1px;
-    background-color: #F1BC46;
+    background-color: #F4C247;
     margin-bottom: 20px;
     position: relative;
     margin-top: 15px;
@@ -35,7 +35,7 @@
 
 .hero-divider::after {
     content: '♦';
-    color: #F1BC46;
+    color: #F4C247;
     position: absolute;
     left: 50%;
     top: -6px;
@@ -46,9 +46,17 @@
 
 .hero-text {
     font-family: 'Poppins', sans-serif;
-    font-size: 12px;
+    font-size: 13px;
     color: #F0F0F0;
     line-height: 1.6;
     margin-bottom: 25px;
     font-weight: 400;
+}
+
+@media only screen and (max-width: 650px) {
+    .hero { background-image: none !important; background-color: #2E145E !important; padding: 0 !important; }
+    .mobile-hero-img { display: block !important; }
+    .hero-table { padding: 30px 20px 40px 20px !important; box-sizing: border-box !important; }
+    .hero-content { width: 100% !important; text-align: center !important; display: block !important; }
+    .hero-divider { margin-left: auto !important; margin-right: auto !important; }
 }

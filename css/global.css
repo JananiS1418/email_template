@@ -1,13 +1,13 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #F4F4F4;
+    background-color: #FAF8F6;
     -webkit-font-smoothing: antialiased;
 }
 
 .email-wrapper {
     width: 100%;
-    background-color: #F4F4F4;
+    background-color: #FAF8F6;
     padding: 20px 0;
 }
 
@@ -15,15 +15,15 @@ body {
     max-width: 700px;
     margin: 0 auto;
     background-color: #FFFFFF;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.05);
     overflow: hidden;
-    border-radius: 30px;
+    border-radius: 18px;
 }
 
 /* Global Buttons */
 .btn-gold {
     display: inline-block;
-    background-color: #F1BC46;
+    background-color: #F4C247;
     color: #2E145E;
     text-decoration: none;
     padding: 12px 24px;
@@ -36,7 +36,7 @@ body {
 
 .btn-gold-solid {
     display: inline-block;
-    background-color: #E6B94A;
+    background-color: #F4C247;
     color: #2E145E;
     text-decoration: none;
     padding: 14px 28px;
@@ -44,7 +44,7 @@ body {
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-size: 14px;
-    box-shadow: 0 4px 10px rgba(230, 185, 74, 0.3);
+    box-shadow: 0 4px 10px rgba(244, 194, 71, 0.3);
 }
 
 .btn-purple {
@@ -59,19 +59,12 @@ body {
     font-size: 12px;
 }
 
-.btn-pink {
-    display: inline-block;
-    background-color: #9C145A;
-    color: #FFFFFF;
-    text-decoration: none;
-    padding: 10px 18px;
-    border-radius: 8px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
-    font-size: 12px;
-}
-
 .btn-arrow {
     margin-left: 5px;
     font-weight: bold;
+}
+
+@media only screen and (max-width: 650px) {
+    .email-container { width: 100% !important; max-width: 100% !important; border-radius: 0 !important; }
+    .email-wrapper { padding: 0 !important; }
 }
