@@ -12,7 +12,7 @@ body {
 }
 
 .email-container {
-    max-width: 700px;
+    max-width: 600px;
     margin: 0 auto;
     background-color: #FFFFFF;
     box-shadow: 0 8px 30px rgba(0, 0, 0, 0.05);

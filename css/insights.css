@@ -25,112 +25,89 @@
 .cards-grid {
     margin: 0 auto;
     width: 100%;
-    table-layout: fixed;
     border-spacing: 10px; /* Space between cards */
 }
 
 .insight-card {
-    padding: 20px 10px;
-    text-align: center;
-    box-sizing: border-box;
-    vertical-align: top;
+    padding: 15px 10px;
     background-color: #FFFFFF;
-    border-radius: 12px;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
-    border: 1px solid #F0F0F0;
+    border-radius: 8px;
+    border: 1px solid #EAEAEA;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.02);
+    position: relative;
+    overflow: hidden;
     transition: all 0.3s ease;
 }
 
 .insight-card:hover {
-    transform: scale(1.02);
-    box-shadow: 0 12px 30px rgba(46, 20, 94, 0.12);
-    border-color: #F4C247;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(46, 20, 94, 0.08);
+    border-color: #E6D5B8;
 }
 
-.card-img-container {
-    height: 100px;
-    margin-bottom: 20px;
-    display: flex;
-    justify-content: center;
+/* Accent mark on top left (simulating the reference image) */
+.insight-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 6px;
+    height: 30px;
+    background-color: #D1C4E9; /* Light purple accent */
+    border-bottom-right-radius: 4px;
 }
 
-.card-img {
-    width: 90px;
-    height: 90px;
-    border-radius: 50%;
-    object-fit: cover;
-    display: block;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+/* Bottom center accent line */
+.card-bottom-accent {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 30px;
+    height: 3px;
+    background-color: #461E9A; /* Dark purple */
+}
+
+.insight-num-box {
+    background-color: #EFE9F5;
+    border-radius: 6px;
+    padding: 12px 15px;
+    display: inline-block;
+    text-align: center;
+}
+
+.insight-num {
+    color: #461E9A;
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0;
+    line-height: 1;
+}
+
+.vertical-sep {
+    width: 1px;
+    background-color: #E0E0E0;
+    height: 30px;
+    margin: 0 auto;
 }
 
 .card-title {
-    font-family: 'Playfair Display', serif;
-    font-size: 13px;
-    font-weight: 700;
-    margin: 0 0 10px 0;
-    line-height: 1.3;
-    height: 34px; 
-    overflow: hidden;
-}
-
-.title-purple { color: #5B2E91; }
-.title-pink { color: #9C145A; }
-.title-blue { color: #1E3A8A; }
-.title-green { color: #047857; }
-
-.card-divider {
-    width: 30px;
-    height: 2px;
-    margin: 0 auto 15px auto;
-}
-
-.divider-purple { background-color: #5B2E91; }
-.divider-pink { background-color: #9C145A; }
-.divider-blue { background-color: #1E3A8A; }
-.divider-green { background-color: #047857; }
-
-.card-desc {
-    font-family: 'Poppins', sans-serif;
-    font-size: 10px;
-    color: #555555;
-    line-height: 1.5;
-    margin: 0;
-    text-align: center;
-    height: 60px;
-    overflow: hidden;
-}
-
-.card-btn {
-    display: inline-block;
-    margin-top: 15px;
-    padding: 10px 15px;
-    border-radius: 6px;
-    color: #FFFFFF !important;
-    text-decoration: none;
     font-family: 'Poppins', sans-serif;
     font-size: 12px;
-    font-weight: 500;
-    text-align: center;
-    transition: all 0.3s ease;
-    box-sizing: border-box;
-    word-break: keep-all;
-    white-space: nowrap;
+    font-weight: 600;
+    color: #461E9A;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin: 0;
+    line-height: 1.4;
+    text-align: left;
 }
-
-.card-btn:hover {
-    transform: translateX(4px);
-    filter: brightness(1.2);
-}
-.btn-bg-purple { background-color: #2E145E; }
-.btn-bg-pink { background-color: #9C145A; }
-.btn-bg-blue { background-color: #1E3A8A; }
-.btn-bg-green { background-color: #047857; }
 
 @media only screen and (max-width: 650px) {
-    .insights-section { padding: 25px 20px !important; }
+    .insights-section { padding: 25px 15px !important; }
     .section-title-container { margin-bottom: 15px !important; }
-    .cards-grid td { display: block !important; width: 100% !important; margin-bottom: 20px !important; }
-    .cards-grid tr td:last-child { margin-bottom: 0 !important; }
-    .insight-card { height: auto !important; padding: 15px !important; }
-    .card-desc { height: auto !important; }
+    .cards-grid td.grid-col { display: block !important; width: 100% !important; margin-bottom: 15px !important; }
+    .cards-grid tr:last-child td.grid-col:last-child { margin-bottom: 0 !important; }
+    .insight-card { padding: 20px 15px !important; }
 }
