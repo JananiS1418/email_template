@@ -1,5 +1,5 @@
 .hero {
-    background: #FAF8F6;
+    background: #F7F2FA;
     padding: 15px 20px 40px 20px;
     text-align: center;
 }
@@ -61,7 +61,7 @@
     left: 50%;
     top: -9px;
     font-size: 14px;
-    background: #FAF8F6;
+    background: #F7F2FA;
     padding: 0 10px;
     transform: translateX(-50%);
 }
@@ -91,6 +91,7 @@
     .hero {
         padding: 15px 15px 30px 15px !important;
     }
+
     .hero-title {
         font-size: 16px !important;
     }
