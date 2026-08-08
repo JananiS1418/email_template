@@ -22,23 +22,6 @@
             supported-color-schemes: light;
         }
 
-        /* Gmail Android Dark Mode Hacks to prevent auto-inversion */
-        .email-container, .header-mobile, .insights-mobile, .cta-mobile {
-            background-image: linear-gradient(#FFFFFF, #FFFFFF) !important;
-        }
-        .hero-mobile, .trust-mobile {
-            background-image: linear-gradient(#F7F2FA, #F7F2FA) !important;
-        }
-        body, table[style*="background-color: #FAF8F6"] {
-            background-image: linear-gradient(#FAF8F6, #FAF8F6) !important;
-        }
-        .hero-title-mobile, span[style*="color: #461E9A"] {
-            -webkit-text-fill-color: #461E9A !important;
-        }
-        .cta-btn-mobile {
-            -webkit-text-fill-color: #FFFFFF !important;
-        }
-
         /* Essential email client overrides */
         body,
         table,
@@ -182,20 +165,20 @@
     </style>
 </head>
 
-<body style="margin: 0; padding: 0; background-color: #FAF8F6; -webkit-font-smoothing: antialiased;">
+<body style="margin: 0; padding: 0; background-color: #FAF8F6; background-image: linear-gradient(#FAF8F6, #FAF8F6); -webkit-font-smoothing: antialiased;">
 
     <!-- WRAPPER -->
-    <table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color: #FAF8F6; padding: 20px 0;">
+    <table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color: #FAF8F6; background-image: linear-gradient(#FAF8F6, #FAF8F6); padding: 20px 0;">
         <tr>
             <td align="center" valign="top">
                 <!-- MAIN EMAIL CONTAINER -->
                 <table width="100%" cellpadding="0" cellspacing="0" border="0" class="email-container"
-                    style="max-width: 600px; margin: 0 auto; background-color: #FFFFFF; border-radius: 18px; overflow: hidden; box-shadow: 0 8px 30px rgba(0, 0, 0, 0.05);">
+                    style="max-width: 600px; margin: 0 auto; background-color: #FFFFFF; background-image: linear-gradient(#FFFFFF, #FFFFFF); border-radius: 18px; overflow: hidden; box-shadow: 0 8px 30px rgba(0, 0, 0, 0.05);">
 
                     <!-- HEADER -->
                     <tr>
                         <td align="center" valign="top" class="header-mobile"
-                            style="padding: 30px 40px; background-color: #FFFFFF;">
+                            style="padding: 30px 40px; background-color: #FFFFFF; background-image: linear-gradient(#FFFFFF, #FFFFFF);">
                             <table width="100%" cellpadding="0" cellspacing="0" border="0">
                                 <tr>
                                     <!-- LOGO -->
@@ -241,7 +224,7 @@
                     <!-- HERO CONTENT -->
                     <tr>
                         <td align="center" valign="top" class="hero-mobile"
-                            style="background-color: #F7F2FA; padding: 15px 20px 40px 20px; text-align: center;">
+                            style="background-color: #F7F2FA; background-image: linear-gradient(#F7F2FA, #F7F2FA); padding: 15px 20px 40px 20px; text-align: center;">
 
                             <table width="100%" cellpadding="0" cellspacing="0" border="0"
                                 style="max-width: 600px; margin: 0 auto;">
@@ -294,7 +277,7 @@
                     <!-- PERSONALIZED INSIGHTS -->
                     <tr>
                         <td align="center" valign="top" class="insights-mobile"
-                            style="padding: 15px 20px; background-color: #FAF8F6;">
+                            style="padding: 15px 20px; background-color: #FAF8F6; background-image: linear-gradient(#FAF8F6, #FAF8F6);">
 
                             <!-- SECTION TITLE -->
                             <table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-bottom: 15px;">
@@ -423,7 +406,7 @@
 
                     <!-- TRUST SECTION -->
                     <tr>
-                        <td align="center" valign="top" style="padding: 15px 40px; background-color: #FFFFFF;">
+                        <td align="center" valign="top" style="padding: 15px 40px; background-color: #FFFFFF; background-image: linear-gradient(#FFFFFF, #FFFFFF);">
                             <h2
                                 style="font-family: 'Poppins', sans-serif; font-size: 13px; font-weight: 700; color: #2E145E; text-transform: uppercase; letter-spacing: 0.5px; margin: 0 0 30px 0;">
                                 <span style="color: #2E145E; font-size: 14px; vertical-align: middle;">✧
@@ -554,8 +537,8 @@
 
                     <!-- CTA & ASSURANCE -->
                     <tr>
-                        <td align="center" valign="top"
-                            style="background-color: #FFFFFF; padding: 15px 40px 30px 40px;">
+                        <td align="center" valign="top" class="cta-mobile"
+                            style="background-color: #FFFFFF; background-image: linear-gradient(#FFFFFF, #FFFFFF); padding: 15px 40px 30px 40px;">
 
                             <!-- SPECIAL OFFER BANNER -->
                             <table width="100%" cellpadding="0" cellspacing="0" border="0"
