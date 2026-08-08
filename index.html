@@ -1,300 +1,435 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AstroVed - Continue Your Spiritual Journey</title>
-
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="images/Fav-Icon.png">
-
     <!-- Fonts -->
-    <link
-        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Poppins:wght@400;500;600&display=swap"
-        rel="stylesheet">
-
-    <!-- CSS Files -->
-    <link rel="stylesheet" href="css/global.css">
-    <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/hero.css">
-    <link rel="stylesheet" href="css/greeting.css">
-    <link rel="stylesheet" href="css/insights.css">
-    <link rel="stylesheet" href="css/trust.css">
-    <link rel="stylesheet" href="css/final-cta.css">
-    <link rel="stylesheet" href="css/assurance.css">
-    <link rel="stylesheet" href="css/footer.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <style>
+        /* Essential email client overrides */
+        body, table, td, a { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+        table, td { mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
+        img { -ms-interpolation-mode: bicubic; border: 0; outline: none; text-decoration: none; }
+        
+        /* Mobile responsive styles */
+        @media only screen and (max-width: 650px) {
+            .email-container { width: 100% !important; max-width: 100% !important; border-radius: 0 !important; }
+            .mobile-stack { display: block !important; width: 100% !important; box-sizing: border-box !important; }
+            .mobile-half { display: inline-block !important; width: 49% !important; box-sizing: border-box !important; vertical-align: top !important; }
+            .mobile-hide { display: none !important; }
+            .mobile-center { text-align: center !important; }
+            .mobile-hero-img { display: block !important; width: 100% !important; height: auto !important; }
+            .mobile-pt-10 { padding-top: 10px !important; }
+            .mobile-mb-15 { margin-bottom: 15px !important; }
+            .mobile-w-100 { width: 100% !important; }
+            .header-mobile { padding: 15px 10px !important; }
+            .logo-mobile { max-width: 90px !important; margin-bottom: 2px !important; }
+            .tagline-mobile { font-size: 8px !important; }
+            .badge-mobile-circle { width: 30px !important; min-width: 30px !important; height: 30px !important; line-height: 30px !important; }
+            .badge-mobile-icon { font-size: 14px !important; line-height: 30px !important; }
+            .badge-mobile-text-td { padding-left: 6px !important; }
+            .badge-mobile-title { font-size: 9px !important; line-height: 1.2 !important; }
+            .badge-mobile-subtitle { font-size: 8px !important; }
+            .hero-mobile { padding: 15px 15px 30px 15px !important; }
+            .hero-title-mobile { font-size: 20px !important; }
+            .insights-mobile { padding: 25px 10px !important; }
+            .insights-title-mobile { font-size: 10px !important; }
+            .trust-mobile { padding: 15px 10px !important; }
+            .cta-mobile { padding: 20px 15px !important; }
+            .cta-btn-mobile { padding: 16px 20px !important; font-size: 13px !important; }
+            .footer-mobile { padding: 15px 15px !important; }
+        }
+    </style>
 </head>
+<body style="margin: 0; padding: 0; background-color: #FAF8F6; -webkit-font-smoothing: antialiased;">
 
-<body>
-    <div class="email-wrapper">
-        <div class="email-container">
-
-            <!-- 1. Header -->
-            <div class="header">
-                <table width="100%" cellpadding="0" cellspacing="0" border="0">
+    <!-- WRAPPER -->
+    <table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color: #FAF8F6; padding: 20px 0;">
+        <tr>
+            <td align="center" valign="top">
+                <!-- MAIN EMAIL CONTAINER -->
+                <table width="100%" cellpadding="0" cellspacing="0" border="0" class="email-container" style="max-width: 600px; margin: 0 auto; background-color: #FFFFFF; border-radius: 18px; overflow: hidden; box-shadow: 0 8px 30px rgba(0, 0, 0, 0.05);">
+                    
+                    <!-- HEADER -->
                     <tr>
-                        <td align="left" valign="middle" class="header-logo-cell">
-                            <img src="https://cdn.astroved.com/images/images-av/AstroVed-Logo.svg" alt="AstroVed"
-                                class="header-logo">
-                            <div class="header-tagline">Your Spiritual Partner Since 2001</div>
-                        </td>
-                        <td align="right" valign="middle" class="header-badge-cell">
-                            <table cellpadding="0" cellspacing="0" border="0" align="right" class="badge-inner-table">
+                        <td align="center" valign="top" class="header-mobile" style="padding: 30px 40px; background-color: #FFFFFF;">
+                            <table width="100%" cellpadding="0" cellspacing="0" border="0">
                                 <tr>
-                                    <td valign="middle" class="badge-icon-td">
-                                        <div class="trust-badge">
-                                            <!-- Fallback if external image is blocked -->
-                                            <span style="font-size: 20px; color: #D8A347;">🪔</span>
-                                        </div>
+                                    <!-- LOGO -->
+                                    <td align="left" valign="middle" style="white-space: nowrap;">
+                                        <img src="https://cdn.astroved.com/images/images-av/AstroVed-Logo.svg" alt="AstroVed" class="logo-mobile" style="max-width: 140px; display: block; margin-bottom: 5px; border: 0;" />
+                                        <div class="tagline-mobile" style="font-family: 'Poppins', sans-serif; font-size: 10px; font-weight: 600; color: #F4C247;">Your Spiritual Partner Since 2001</div>
                                     </td>
-                                    <td valign="middle" align="left" style="padding-left: 14px;" class="badge-text-td">
-                                        <div class="trust-text-main">Trusted by Millions</div>
-                                        <div class="trust-text-sub">20+ Years of Legacy</div>
+                                    <!-- TRUST BADGE -->
+                                    <td align="right" valign="middle" style="padding-left: 10px;">
+                                        <table cellpadding="0" cellspacing="0" border="0" align="right" style="margin: 0 0 0 auto;">
+                                            <tr>
+                                                <td valign="middle" align="center" class="badge-mobile-circle" style="width: 40px; min-width: 40px; height: 40px; border-radius: 50%; border: 1px solid #F4C247; background-color: #FFFFFF;">
+                                                    <span class="badge-mobile-icon" style="font-size: 20px; color: #D8A347; display: inline-block; line-height: 40px;">🪔</span>
+                                                </td>
+                                                <td valign="middle" align="left" class="badge-mobile-text-td" style="padding-left: 14px; white-space: nowrap;">
+                                                    <div class="badge-mobile-title" style="font-family: 'Poppins', sans-serif; font-size: 11px; font-weight: 600; color: #2F2F2F;">Trusted by Millions</div>
+                                                    <div class="badge-mobile-subtitle" style="font-family: 'Poppins', sans-serif; font-size: 10px; font-weight: 500; color: #F4C247;">20+ Years of Legacy</div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                            <!-- DIVIDER -->
+                            <div style="height: 1px; background-color: #F4C247; width: 100%; opacity: 0.3; margin-top: 20px;"></div>
+                        </td>
+                    </tr>
+
+                    <!-- HERO CONTENT -->
+                    <tr>
+                        <td align="center" valign="top" class="hero-mobile" style="background-color: #F7F2FA; padding: 15px 20px 40px 20px; text-align: center;">
+
+                            <table width="100%" cellpadding="0" cellspacing="0" border="0" style="max-width: 600px; margin: 0 auto;">
+                                <tr>
+                                    <td align="center" valign="middle" style="width: 100%;">
+                                        <div style="font-family: 'Poppins', sans-serif; font-size: 13px; color: #555555; margin-bottom: 4px; font-weight: 400; line-height: 1.6;">
+                                            <span style="font-family: 'Playfair Display', serif; font-size: 24px; color: #461E9A; font-weight: 600; display: block; margin-bottom: 6px;">Hi Janani,</span>
+                                            It's been a while since we connected.
+                                        </div>
+                                        <h1 class="hero-title-mobile" style="font-family: 'Playfair Display', serif; font-size: 28px; line-height: 1.3; color: #461E9A; margin: 0 0 15px 0; font-weight: 600;">Your Spiritual Journey is Always<br>in Bloom</h1>
+                                        
+                                        <!-- EMAIL-SAFE DIVIDER WITH DIAMOND -->
+                                        <table cellpadding="0" cellspacing="0" border="0" align="center" style="margin: 15px auto 20px auto; width: 120px;">
+                                            <tr>
+                                                <td valign="middle" align="center" style="width: 45px;">
+                                                    <div style="height: 1px; font-size: 1px; line-height: 1px; background-color: #E6D5B8;">&nbsp;</div>
+                                                </td>
+                                                <td valign="middle" align="center" style="width: 30px; font-size: 14px; color: #B58546; background-color: #F7F2FA; line-height: 14px; mso-line-height-rule: exactly;">✦</td>
+                                                <td valign="middle" align="center" style="width: 45px;">
+                                                    <div style="height: 1px; font-size: 1px; line-height: 1px; background-color: #E6D5B8;">&nbsp;</div>
+                                                </td>
+                                            </tr>
+                                        </table>
+
+                                        <div style="font-family: 'Poppins', sans-serif; font-size: 13px; color: #B58546; font-weight: 600; letter-spacing: 1px; margin: 15px 0;">PICK UP WHERE YOU LEFT OFF</div>
+
+                                        <a href="#" target="_blank" style="display: inline-block; background-color: #461E9A; color: #FFFFFF; font-family: 'Poppins', sans-serif; font-size: 14px; font-weight: 500; text-decoration: none; padding: 14px 30px; border-radius: 4px;">Explore My Guidance &rarr;</a>
                                     </td>
                                 </tr>
                             </table>
                         </td>
                     </tr>
-                </table>
-                <div class="header-divider"></div>
-            </div>
 
-            <!-- 2. Hero Section -->
-            <div class="hero">
-                <!-- Mobile Only Banner Image -->
-                <img src="images/mobile-banner.png" alt="Spiritual Journey" class="mobile-hero-img"
-                    style="display: none; width: 100%; height: auto;">
-
-                <table width="100%" cellpadding="0" cellspacing="0" border="0" class="hero-table">
+                    <!-- PERSONALIZED INSIGHTS -->
                     <tr>
-                        <td class="hero-content" valign="middle">
-                            <div class="hero-greeting"><span class="hero-name">Hi Janani,</span>It's been a while since
-                                we connected.</div>
-                            <h1 class="hero-title">Your Spiritual Journey is Always<br>in Bloom</h1>
-                            <div class="hero-divider"></div>
-                            <div class="hero-subtitle-new">PICK UP WHERE YOU LEFT OFF</div>
+                        <td align="center" valign="top" class="insights-mobile" style="padding: 15px 20px; background-color: #FAF8F6;">
+                            
+                            <!-- SECTION TITLE -->
+                            <table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-bottom: 15px;">
+                                <tr>
+                                    <td align="center">
+                                        <h2 class="insights-title-mobile" style="font-family: 'Poppins', sans-serif; font-size: 13px; font-weight: 700; color: #2E145E; text-transform: uppercase; letter-spacing: 0.5px; margin: 0;">
+                                            <span style="color: #2E145E; font-size: 14px; vertical-align: middle;">✧ &nbsp;</span>YOUR PERSONALIZED INSIGHTS ARE WAITING<span style="color: #2E145E; font-size: 14px; vertical-align: middle;">&nbsp; ✧</span>
+                                        </h2>
+                                    </td>
+                                </tr>
+                            </table>
 
-                            <a class="btn-hero-purple" target="_blank">Explore My
-                                Guidance &rarr;</a>
+                            <!-- CARDS GRID 2x2 -->
+                            <table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin: 0 auto; width: 100%;">
+                                <!-- ROW 1 -->
+                                <tr>
+                                    <!-- KUNDALI CARD -->
+                                    <td width="50%" valign="top" class="mobile-stack" style="padding: 5px;">
+                                        <table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color: #FFFFFF; border-radius: 8px; border: 1px solid #EAEAEA; box-shadow: 0 4px 15px rgba(0,0,0,0.02);">
+                                            <tr>
+                                                <td style="width: 6px; background-color: #D1C4E9; border-top-left-radius: 8px; border-bottom-left-radius: 8px;"></td>
+                                                <td align="center" style="padding: 15px 10px;">
+                                                    <h3 style="font-family: 'Poppins', sans-serif; font-size: 12px; font-weight: 600; color: #461E9A; text-transform: uppercase; letter-spacing: 0.5px; margin: 0; text-align: center;">KUNDALI REPORT</h3>
+                                                    <!-- Bottom Accent -->
+                                                    <table cellpadding="0" cellspacing="0" border="0" align="center" style="margin-top: 10px;">
+                                                        <tr><td style="width: 30px; height: 3px; background-color: #461E9A; font-size:0; line-height:0;">&nbsp;</td></tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <!-- NUMEROLOGY CARD -->
+                                    <td width="50%" valign="top" class="mobile-stack" style="padding: 5px;">
+                                        <table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color: #FFFFFF; border-radius: 8px; border: 1px solid #EAEAEA; box-shadow: 0 4px 15px rgba(0,0,0,0.02);">
+                                            <tr>
+                                                <td style="width: 6px; background-color: #D1C4E9; border-top-left-radius: 8px; border-bottom-left-radius: 8px;"></td>
+                                                <td align="center" style="padding: 15px 10px;">
+                                                    <h3 style="font-family: 'Poppins', sans-serif; font-size: 12px; font-weight: 600; color: #461E9A; text-transform: uppercase; letter-spacing: 0.5px; margin: 0; text-align: center;">NUMEROLOGY REPORT</h3>
+                                                    <table cellpadding="0" cellspacing="0" border="0" align="center" style="margin-top: 10px;">
+                                                        <tr><td style="width: 30px; height: 3px; background-color: #461E9A; font-size:0; line-height:0;">&nbsp;</td></tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <!-- ROW 2 -->
+                                <tr>
+                                    <!-- HOROSCOPE CARD -->
+                                    <td width="50%" valign="top" class="mobile-stack" style="padding: 5px;">
+                                        <table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color: #FFFFFF; border-radius: 8px; border: 1px solid #EAEAEA; box-shadow: 0 4px 15px rgba(0,0,0,0.02);">
+                                            <tr>
+                                                <td style="width: 6px; background-color: #D1C4E9; border-top-left-radius: 8px; border-bottom-left-radius: 8px;"></td>
+                                                <td align="center" style="padding: 15px 10px;">
+                                                    <h3 style="font-family: 'Poppins', sans-serif; font-size: 12px; font-weight: 600; color: #461E9A; text-transform: uppercase; letter-spacing: 0.5px; margin: 0; text-align: center;">TODAY'S HOROSCOPE</h3>
+                                                    <table cellpadding="0" cellspacing="0" border="0" align="center" style="margin-top: 10px;">
+                                                        <tr><td style="width: 30px; height: 3px; background-color: #461E9A; font-size:0; line-height:0;">&nbsp;</td></tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <!-- REMEDY CARD -->
+                                    <td width="50%" valign="top" class="mobile-stack" style="padding: 5px;">
+                                        <table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color: #FFFFFF; border-radius: 8px; border: 1px solid #EAEAEA; box-shadow: 0 4px 15px rgba(0,0,0,0.02);">
+                                            <tr>
+                                                <td style="width: 6px; background-color: #D1C4E9; border-top-left-radius: 8px; border-bottom-left-radius: 8px;"></td>
+                                                <td align="center" style="padding: 15px 10px;">
+                                                    <h3 style="font-family: 'Poppins', sans-serif; font-size: 12px; font-weight: 600; color: #461E9A; text-transform: uppercase; letter-spacing: 0.5px; margin: 0; text-align: center;">RECOMMENDED REMEDY</h3>
+                                                    <table cellpadding="0" cellspacing="0" border="0" align="center" style="margin-top: 10px;">
+                                                        <tr><td style="width: 30px; height: 3px; background-color: #461E9A; font-size:0; line-height:0;">&nbsp;</td></tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
                         </td>
                     </tr>
-                </table>
-            </div>
 
-
-
-            <!-- 4. Insights Section -->
-            <div class="insights-section">
-                <!-- 4. Section Title -->
-                <div class="section-title-container">
-                    <table width="100%" cellpadding="0" cellspacing="0" border="0">
-                        <tr>
-                            <td align="center">
-                                <h2 class="section-title">
-                                    <span style="color: #2E145E; font-size: 14px; vertical-align: middle;">✧
-                                        &nbsp;</span>YOUR PERSONALIZED INSIGHTS ARE WAITING<span
-                                        style="color: #2E145E; font-size: 14px; vertical-align: middle;">&nbsp; ✧</span>
-                                </h2>
-                            </td>
-                        </tr>
-                    </table>
-                </div>
-
-                <table width="100%" cellpadding="0" cellspacing="0" border="0" class="cards-grid">
+                    <!-- TRUST SECTION -->
                     <tr>
-                        <td width="50%" valign="top" class="grid-col">
-                            <div class="insight-card">
-                                <div class="card-bottom-accent"></div>
-                                <h3 class="card-title" style="text-align: center;">KUNDALI REPORT</h3>
-                            </div>
-                        </td>
-                        <td width="50%" valign="top" class="grid-col">
-                            <div class="insight-card">
-                                <div class="card-bottom-accent"></div>
-                                <h3 class="card-title" style="text-align: center;">NUMEROLOGY REPORT</h3>
-                            </div>
+                        <td align="center" valign="top" style="padding: 15px 40px; background-color: #FFFFFF;">
+                            <h2 style="font-family: 'Poppins', sans-serif; font-size: 13px; font-weight: 700; color: #2E145E; text-transform: uppercase; letter-spacing: 0.5px; margin: 0 0 30px 0;">
+                                <span style="color: #2E145E; font-size: 14px; vertical-align: middle;">✧ &nbsp;</span>WHY RETURN TO ASTROVED?<span style="color: #2E145E; font-size: 14px; vertical-align: middle;">&nbsp; ✧</span>
+                            </h2>
+                            <table width="100%" cellpadding="0" cellspacing="0" border="0" style="text-align: center;">
+                                <tr>
+                                    <td width="24%" valign="top" align="center" class="mobile-half mobile-mb-15">
+                                        <table cellpadding="0" cellspacing="0" border="0" align="center" class="mobile-center">
+                                            <tr>
+                                                <td align="center" valign="middle" class="mobile-stack">
+                                                    <table cellpadding="0" cellspacing="0" border="0" style="margin-right: 10px;" class="mobile-center">
+                                                        <tr>
+                                                            <td style="width: 44px; height: 44px; border-radius: 50%; background-color: #F3EDF9; text-align: center; vertical-align: middle;">
+                                                                <img src="https://img.icons8.com/ios/50/2E145E/user.png" alt="User" style="width: 24px; height: 24px; vertical-align: middle; border: 0;">
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                                <td align="left" valign="middle" class="mobile-stack mobile-center">
+                                                    <div style="font-family: 'Poppins', sans-serif; font-size: 11px; font-weight: 500; color: #333333; line-height: 1.4;">Personalized<br>Just For You</div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td width="2%" valign="middle" align="center" class="mobile-hide">
+                                        <div style="width: 1px; background-color: #E5E5E5; height: 40px; margin: 0 auto;"></div>
+                                    </td>
+                                    <td width="24%" valign="top" align="center" class="mobile-half mobile-mb-15">
+                                        <table cellpadding="0" cellspacing="0" border="0" align="center" class="mobile-center">
+                                            <tr>
+                                                <td align="center" valign="middle" class="mobile-stack">
+                                                    <table cellpadding="0" cellspacing="0" border="0" style="margin-right: 10px;" class="mobile-center">
+                                                        <tr>
+                                                            <td style="width: 44px; height: 44px; border-radius: 50%; background-color: #F3EDF9; text-align: center; vertical-align: middle;">
+                                                                <img src="https://img.icons8.com/ios/50/2E145E/security-checked.png" alt="Shield" style="width: 24px; height: 24px; vertical-align: middle; border: 0;">
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                                <td align="left" valign="middle" class="mobile-stack mobile-center">
+                                                    <div style="font-family: 'Poppins', sans-serif; font-size: 11px; font-weight: 500; color: #333333; line-height: 1.4;">Trusted by<br>Millions</div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td width="2%" valign="middle" align="center" class="mobile-hide">
+                                        <div style="width: 1px; background-color: #E5E5E5; height: 40px; margin: 0 auto;"></div>
+                                    </td>
+                                    <td width="24%" valign="top" align="center" class="mobile-half mobile-mb-15">
+                                        <table cellpadding="0" cellspacing="0" border="0" align="center" class="mobile-center">
+                                            <tr>
+                                                <td align="center" valign="middle" class="mobile-stack">
+                                                    <table cellpadding="0" cellspacing="0" border="0" style="margin-right: 10px;" class="mobile-center">
+                                                        <tr>
+                                                            <td style="width: 44px; height: 44px; border-radius: 50%; background-color: #F3EDF9; text-align: center; vertical-align: middle;">
+                                                                <img src="https://img.icons8.com/ios/50/2E145E/guarantee.png" alt="Badge" style="width: 24px; height: 24px; vertical-align: middle; border: 0;">
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                                <td align="left" valign="middle" class="mobile-stack mobile-center">
+                                                    <div style="font-family: 'Poppins', sans-serif; font-size: 11px; font-weight: 500; color: #333333; line-height: 1.4;">20+ Years of<br>Expert Guidance</div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td width="2%" valign="middle" align="center" class="mobile-hide">
+                                        <div style="width: 1px; background-color: #E5E5E5; height: 40px; margin: 0 auto;"></div>
+                                    </td>
+                                    <td width="24%" valign="top" align="center" class="mobile-half mobile-mb-15">
+                                        <table cellpadding="0" cellspacing="0" border="0" align="center" class="mobile-center">
+                                            <tr>
+                                                <td align="center" valign="middle" class="mobile-stack">
+                                                    <table cellpadding="0" cellspacing="0" border="0" style="margin-right: 10px;" class="mobile-center">
+                                                        <tr>
+                                                            <td style="width: 44px; height: 44px; border-radius: 50%; background-color: #F3EDF9; text-align: center; vertical-align: middle;">
+                                                                <img src="https://img.icons8.com/ios/50/2E145E/lock.png" alt="Lock" style="width: 24px; height: 24px; vertical-align: middle; border: 0;">
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                                <td align="left" valign="middle" class="mobile-stack mobile-center">
+                                                    <div style="font-family: 'Poppins', sans-serif; font-size: 11px; font-weight: 500; color: #333333; line-height: 1.4;">100% Secure<br>& Confidential</div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
                         </td>
                     </tr>
+
+                    <!-- CTA & ASSURANCE -->
                     <tr>
-                        <td width="50%" valign="top" class="grid-col">
-                            <div class="insight-card">
-                                <div class="card-bottom-accent"></div>
-                                <h3 class="card-title" style="text-align: center;">TODAY'S HOROSCOPE</h3>
-                            </div>
-                        </td>
-                        <td width="50%" valign="top" class="grid-col">
-                            <div class="insight-card">
-                                <div class="card-bottom-accent"></div>
-                                <h3 class="card-title" style="text-align: center;">RECOMMENDED REMEDY</h3>
-                            </div>
+                        <td align="center" valign="top" style="background-color: #FFFFFF; padding: 15px 40px 30px 40px;">
+                            
+                            <!-- SPECIAL OFFER BANNER -->
+                            <table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color: #2E145E; border-radius: 12px; padding: 20px; margin-bottom: 25px; border: 1px solid #482C7E;">
+                                <tr>
+                                    <td width="20%" align="center" valign="middle" class="mobile-stack" style="padding-bottom: 10px;">
+                                        <img src="https://img.icons8.com/ios-filled/100/F4C247/stopwatch.png" alt="Stopwatch" style="width: 60px; height: 60px; border: 0;">
+                                    </td>
+                                    <td width="50%" align="left" valign="middle" class="mobile-stack mobile-center" style="padding-bottom: 10px;">
+                                        <div style="color: #F4C247; font-family: 'Poppins', sans-serif; font-size: 10px; font-weight: 700; text-transform: uppercase; margin-bottom: 5px;">SPECIAL OFFER - LIMITED TIME ONLY!</div>
+                                        <div style="color: #FFFFFF; font-family: 'Poppins', sans-serif; font-size: 12px; margin-bottom: 2px;">Come back today and get</div>
+                                        <div style="color: #FFFFFF; font-family: 'Poppins', sans-serif; font-size: 26px; font-weight: 700;">FLAT 25% OFF</div>
+                                    </td>
+                                    <td width="30%" align="center" valign="middle" class="mobile-stack">
+                                        <div style="border: 1px solid rgba(255, 255, 255, 0.15); border-radius: 8px; padding: 10px 15px; display: inline-block;">
+                                            <div style="color: #FFFFFF; font-family: 'Poppins', sans-serif; font-size: 10px; margin-bottom: 4px;">Offer Valid Till</div>
+                                            <div style="color: #F4C247; font-family: 'Poppins', sans-serif; font-size: 14px; font-weight: 700;">31 AUGUST 2026</div>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+
+                            <a href="#" target="_blank" class="cta-btn-mobile" style="display: inline-block; background-color: #461E9A; color: #FFFFFF; font-family: 'Poppins', sans-serif; font-size: 14px; font-weight: 600; text-decoration: none; padding: 16px 80px; border-radius: 8px; margin-bottom: 15px;">
+                                Continue My Spiritual Journey <span style="margin-left: 5px;">&rarr;</span>
+                            </a>
+
+                            <table cellpadding="0" cellspacing="0" border="0" align="center" style="margin-bottom: 30px;">
+                                <tr>
+                                    <td align="center" valign="middle">
+                                        <img src="https://img.icons8.com/ios/50/665287/security-checked.png" alt="Safe" style="width: 14px; height: 14px; margin-right: 6px; border: 0; vertical-align: middle;">
+                                        <span style="font-family: 'Poppins', sans-serif; font-size: 11px; color: #665287; font-weight: 500; vertical-align: middle;">Safe &bull; Secure &bull; Trusted</span>
+                                    </td>
+                                </tr>
+                            </table>
+
+                            <!-- ASSURANCE GRID -->
+                            <table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color: #F8F5FD; border-radius: 12px; padding: 20px 10px;">
+                                <tr>
+                                    <td width="24%" valign="top" align="center" class="mobile-half mobile-mb-15">
+                                        <table cellpadding="0" cellspacing="0" border="0" align="center" class="mobile-center">
+                                            <tr>
+                                                <td align="center" valign="middle" class="mobile-stack">
+                                                    <img src="https://img.icons8.com/ios/50/2E145E/mail.png" alt="Mail" style="width: 32px; height: 32px; margin-right: 10px; border: 0;">
+                                                </td>
+                                                <td align="left" valign="middle" class="mobile-stack mobile-center">
+                                                    <div style="font-family: 'Poppins', sans-serif; font-size: 11px; font-weight: 500; color: #333333; line-height: 1.4;">Delivered In<br>72 Hours</div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td width="1%" valign="middle" align="center" class="mobile-hide">
+                                        <div style="width: 1px; background-color: #E6DFEF; height: 35px; margin: 0 auto;"></div>
+                                    </td>
+                                    <td width="24%" valign="top" align="center" class="mobile-half mobile-mb-15">
+                                        <table cellpadding="0" cellspacing="0" border="0" align="center" class="mobile-center">
+                                            <tr>
+                                                <td align="center" valign="middle" class="mobile-stack">
+                                                    <img src="https://img.icons8.com/ios/50/2E145E/pdf.png" alt="PDF" style="width: 32px; height: 32px; margin-right: 10px; border: 0;">
+                                                </td>
+                                                <td align="left" valign="middle" class="mobile-stack mobile-center">
+                                                    <div style="font-family: 'Poppins', sans-serif; font-size: 11px; font-weight: 500; color: #333333; line-height: 1.4;">PDF Report<br>on Email</div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td width="1%" valign="middle" align="center" class="mobile-hide">
+                                        <div style="width: 1px; background-color: #E6DFEF; height: 35px; margin: 0 auto;"></div>
+                                    </td>
+                                    <td width="24%" valign="top" align="center" class="mobile-half mobile-mb-15">
+                                        <table cellpadding="0" cellspacing="0" border="0" align="center" class="mobile-center">
+                                            <tr>
+                                                <td align="center" valign="middle" class="mobile-stack">
+                                                    <img src="https://img.icons8.com/ios/50/2E145E/headset.png" alt="Headset" style="width: 32px; height: 32px; margin-right: 10px; border: 0;">
+                                                </td>
+                                                <td align="left" valign="middle" class="mobile-stack mobile-center">
+                                                    <div style="font-family: 'Poppins', sans-serif; font-size: 11px; font-weight: 500; color: #333333; line-height: 1.4;">Expert<br>Support</div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td width="1%" valign="middle" align="center" class="mobile-hide">
+                                        <div style="width: 1px; background-color: #E6DFEF; height: 35px; margin: 0 auto;"></div>
+                                    </td>
+                                    <td width="24%" valign="top" align="center" class="mobile-half mobile-mb-15">
+                                        <table cellpadding="0" cellspacing="0" border="0" align="center" class="mobile-center">
+                                            <tr>
+                                                <td align="center" valign="middle" class="mobile-stack">
+                                                    <img src="https://img.icons8.com/ios/50/2E145E/guarantee.png" alt="Guarantee" style="width: 32px; height: 32px; margin-right: 10px; border: 0;">
+                                                </td>
+                                                <td align="left" valign="middle" class="mobile-stack mobile-center">
+                                                    <div style="font-family: 'Poppins', sans-serif; font-size: 11px; font-weight: 500; color: #333333; line-height: 1.4;">Satisfaction<br>Guaranteed</div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+
                         </td>
                     </tr>
-                </table>
-            </div>
 
-
-
-            <!-- 6. Trust Section -->
-            <div class="trust-section">
-                <h2 class="trust-section-title">
-                    <span style="color: #2E145E; font-size: 14px; vertical-align: middle;">✧ &nbsp;</span>WHY RETURN TO
-                    ASTROVED?<span style="color: #2E145E; font-size: 14px; vertical-align: middle;">&nbsp; ✧</span>
-                </h2>
-                <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                    <!-- FOOTER -->
                     <tr>
-                        <td width="24%" valign="middle" align="center">
-                            <div class="trust-item">
-                                <div class="trust-icon-container">
-                                    <img src="https://img.icons8.com/ios/50/2E145E/user.png" alt="User"
-                                        class="trust-icon">
-                                </div>
-                                <div class="trust-info">Personalized<br>Just For You</div>
-                            </div>
-                        </td>
-                        <td width="2%" valign="middle" align="center">
-                            <div class="trust-divider"></div>
-                        </td>
-                        <td width="24%" valign="middle" align="center">
-                            <div class="trust-item">
-                                <div class="trust-icon-container">
-                                    <img src="https://img.icons8.com/ios/50/2E145E/security-checked.png" alt="Shield"
-                                        class="trust-icon">
-                                </div>
-                                <div class="trust-info">Trusted by<br>Millions</div>
-                            </div>
-                        </td>
-                        <td width="2%" valign="middle" align="center">
-                            <div class="trust-divider"></div>
-                        </td>
-                        <td width="24%" valign="middle" align="center">
-                            <div class="trust-item">
-                                <div class="trust-icon-container">
-                                    <img src="https://img.icons8.com/ios/50/2E145E/guarantee.png" alt="Badge"
-                                        class="trust-icon">
-                                </div>
-                                <div class="trust-info">20+ Years of<br>Expert Guidance</div>
-                            </div>
-                        </td>
-                        <td width="2%" valign="middle" align="center">
-                            <div class="trust-divider"></div>
-                        </td>
-                        <td width="24%" valign="middle" align="center">
-                            <div class="trust-item">
-                                <div class="trust-icon-container">
-                                    <img src="https://img.icons8.com/ios/50/2E145E/lock.png" alt="Lock"
-                                        class="trust-icon">
-                                </div>
-                                <div class="trust-info">100% Secure<br>& Confidential</div>
-                            </div>
+                        <td align="center" valign="top" style="background-color: #F8F5FD; padding: 15px 40px 30px 40px;">
+                            
+                            <table cellpadding="0" cellspacing="0" border="0" align="center" style="margin-bottom: 25px;">
+                                <tr>
+                                    <td align="center" valign="middle" class="mobile-stack">
+                                        <div style="font-family: 'Poppins', sans-serif; font-size: 11px; color: #333333; margin-right: 15px;">Stay connected with us</div>
+                                    </td>
+                                    <td align="center" valign="middle" class="mobile-stack mobile-pt-10">
+                                        <a href="#" style="text-decoration: none; display: inline-block;"><img src="https://img.icons8.com/ios-filled/50/2E145E/facebook-circled--v1.png" alt="Facebook" style="width: 24px; height: 24px; margin: 0 5px; border: 0; vertical-align: middle;"></a>
+                                        <a href="#" style="text-decoration: none; display: inline-block;"><img src="https://img.icons8.com/ios-filled/50/2E145E/instagram-new.png" alt="Instagram" style="width: 24px; height: 24px; margin: 0 5px; border: 0; vertical-align: middle;"></a>
+                                        <a href="#" style="text-decoration: none; display: inline-block;"><img src="https://img.icons8.com/ios-filled/50/2E145E/youtube-play.png" alt="YouTube" style="width: 24px; height: 24px; margin: 0 5px; border: 0; vertical-align: middle;"></a>
+                                        <a href="#" style="text-decoration: none; display: inline-block;"><img src="https://img.icons8.com/ios-filled/50/2E145E/twitter.png" alt="Twitter" style="width: 24px; height: 24px; margin: 0 5px; border: 0; vertical-align: middle;"></a>
+                                    </td>
+                                </tr>
+                            </table>
+
+                            <p style="font-family: 'Poppins', sans-serif; font-size: 9px; color: #666666; line-height: 1.8; margin: 0;">
+                                You are receiving this email because you opted in at AstroVed.<br>
+                                <a href="#" style="color: #666666; text-decoration: underline;">Unsubscribe</a> &nbsp;|&nbsp; <a href="#" style="color: #666666; text-decoration: underline;">Privacy Policy</a> &nbsp;|&nbsp; <a href="#" style="color: #666666; text-decoration: underline;">Terms &amp; Conditions</a><br>
+                                &copy; 2026 AstroVed.com. All Rights Reserved.
+                            </p>
                         </td>
                     </tr>
+
                 </table>
-            </div>
-
-
-
-            <!-- 7. Final CTA / Special Offer -->
-            <div class="final-cta">
-                <div class="special-offer-banner">
-                    <table width="100%" cellpadding="0" cellspacing="0" border="0">
-                        <tr>
-                            <td width="20%" align="center" valign="middle">
-                                <img src="https://img.icons8.com/ios-filled/100/F4C247/stopwatch.png" alt="Stopwatch"
-                                    class="offer-timer-icon">
-                            </td>
-                            <td width="50%" align="left" valign="middle">
-                                <div class="offer-tag">SPECIAL OFFER - LIMITED TIME ONLY!</div>
-                                <div class="offer-sub">Come back today and get</div>
-                                <div class="offer-main">FLAT 25% OFF</div>
-                            </td>
-                            <td width="30%" align="center" valign="middle">
-                                <div class="offer-validity-box">
-                                    <div class="validity-label">Offer Valid Till</div>
-                                    <div class="validity-date">31 AUGUST 2026</div>
-                                </div>
-                            </td>
-                        </tr>
-                    </table>
-                </div>
-
-                <a class="btn-purple" target="_blank">Continue My Spiritual Journey
-                    <span class="btn-arrow">&rarr;</span></a>
-
-                <div class="safe-badge">
-                    <img src="https://img.icons8.com/ios/50/665287/security-checked.png" alt="Safe" class="safe-icon">
-                    <span class="safe-text">Safe &bull; Secure &bull; Trusted</span>
-                </div>
-
-                <div class="assurance-section">
-                    <table width="100%" cellpadding="0" cellspacing="0" border="0">
-                        <tr>
-                            <td width="24%" valign="middle" align="center">
-                                <div class="assurance-item">
-                                    <img src="https://img.icons8.com/ios/50/2E145E/mail.png" alt="Mail"
-                                        class="assurance-icon">
-                                    <div class="assurance-info">Delivered In<br>72 Hours</div>
-                                </div>
-                            </td>
-                            <td width="1%" valign="middle" align="center">
-                                <div class="assurance-divider"></div>
-                            </td>
-                            <td width="24%" valign="middle" align="center">
-                                <div class="assurance-item">
-                                    <img src="https://img.icons8.com/ios/50/2E145E/pdf.png" alt="PDF"
-                                        class="assurance-icon">
-                                    <div class="assurance-info">PDF Report<br>on Email</div>
-                                </div>
-                            </td>
-                            <td width="1%" valign="middle" align="center">
-                                <div class="assurance-divider"></div>
-                            </td>
-                            <td width="24%" valign="middle" align="center">
-                                <div class="assurance-item">
-                                    <img src="https://img.icons8.com/ios/50/2E145E/headset.png" alt="Headset"
-                                        class="assurance-icon">
-                                    <div class="assurance-info">Expert<br>Support</div>
-                                </div>
-                            </td>
-                            <td width="1%" valign="middle" align="center">
-                                <div class="assurance-divider"></div>
-                            </td>
-                            <td width="24%" valign="middle" align="center">
-                                <div class="assurance-item">
-                                    <img src="https://img.icons8.com/ios/50/2E145E/guarantee.png" alt="Guarantee"
-                                        class="assurance-icon">
-                                    <div class="assurance-info">Satisfaction<br>Guaranteed</div>
-                                </div>
-                            </td>
-                        </tr>
-                    </table>
-                </div>
-            </div>
-
-            <!-- 8. Footer -->
-            <div class="footer">
-                <div class="stay-connected">
-                    <span class="stay-text">Stay connected with us</span>
-                    <a href="#"><img src="https://img.icons8.com/ios-filled/50/2E145E/facebook-circled--v1.png"
-                            alt="Facebook" class="social-icon"></a>
-                    <a href="#"><img src="https://img.icons8.com/ios-filled/50/2E145E/instagram-new.png" alt="Instagram"
-                            class="social-icon"></a>
-                    <a href="#"><img src="https://img.icons8.com/ios-filled/50/2E145E/youtube-play.png" alt="YouTube"
-                            class="social-icon"></a>
-                    <a href="#"><img src="https://img.icons8.com/ios-filled/50/2E145E/twitter.png" alt="Twitter"
-                            class="social-icon"></a>
-                </div>
-
-                <p class="footer-copy">
-                    You are receiving this email because you opted in at AstroVed.<br>
-                    <a href="#">Unsubscribe</a> &nbsp;|&nbsp; <a href="#">Privacy Policy</a> &nbsp;|&nbsp; <a
-                        href="#">Terms &amp; Conditions</a><br>
-                    &copy; 2026 AstroVed.com. All Rights Reserved.
-                </p>
-            </div>
-
-        </div>
-    </div>
+            </td>
+        </tr>
+    </table>
 </body>
-
 </html>
