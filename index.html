@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="x-apple-disable-message-reformatting">
+    <meta name="color-scheme" content="light">
+    <meta name="supported-color-schemes" content="light">
     <title>AstroVed - Continue Your Spiritual Journey</title>
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="images/Fav-Icon.png">
@@ -15,6 +17,28 @@
         rel="stylesheet">
 
     <style>
+        :root {
+            color-scheme: light;
+            supported-color-schemes: light;
+        }
+
+        /* Gmail Android Dark Mode Hacks to prevent auto-inversion */
+        .email-container, .header-mobile, .insights-mobile, .cta-mobile {
+            background-image: linear-gradient(#FFFFFF, #FFFFFF) !important;
+        }
+        .hero-mobile, .trust-mobile {
+            background-image: linear-gradient(#F7F2FA, #F7F2FA) !important;
+        }
+        body, table[style*="background-color: #FAF8F6"] {
+            background-image: linear-gradient(#FAF8F6, #FAF8F6) !important;
+        }
+        .hero-title-mobile, span[style*="color: #461E9A"] {
+            -webkit-text-fill-color: #461E9A !important;
+        }
+        .cta-btn-mobile {
+            -webkit-text-fill-color: #FFFFFF !important;
+        }
+
         /* Essential email client overrides */
         body,
         table,
